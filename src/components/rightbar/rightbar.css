@@ -1,0 +1,126 @@
+.rightbar {
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+    position: sticky;
+    top: 50px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .rightbarWrapper {
+    padding: 10px;
+  }
+  
+  /* Birthday Section */
+  .birthdayContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff7f7;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .birthdayImg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .birthdayText {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  /* Advertisement */
+  .rightbarAd {
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  /* Title */
+  .rightbarTitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  /* Online Friends */
+  .rightbarFriendList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .rightbarFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .rightbarProfileImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .rightbarUsername {
+    font-weight: 500;
+  }
+  
+  /* Profile Info */
+  .rightbarInfo {
+    margin-bottom: 30px;
+  }
+  
+  .rightbarInfoItem {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+  }
+  
+  .rightbarInfoKey {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .rightbarInfoValue {
+    font-weight: 300;
+    color: #777;
+  }
+  
+  /* Followings Section */
+  .rightbarFollowings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .rightbarFollowing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+    margin-bottom: 15px;
+  }
+  
+  .rightbarFollowingImg {
+    width: 100%;
+    max-width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .rightbarFollowingName {
+    font-size: 14px;
+    text-align: center;
+  }
+  

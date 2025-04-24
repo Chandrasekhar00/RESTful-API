@@ -1,0 +1,123 @@
+/* post.css */
+.post {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.68);
+    background-color: white;
+    margin-bottom: 20px; /* Space between posts */
+    padding-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .postWrapper {
+    padding: 10px;
+  }
+  
+  .postTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Spacing between profile and post content */
+  }
+  
+  .postTopLeft {
+    display: flex;
+    align-items: center;
+  }
+  
+  .postProfileImg {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profilename {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+  }
+  
+  .dateOFProfile {
+    font-size: 12px;
+    color: #777; /* Light color for the date */
+  }
+  
+  .postCenter {
+    margin-top: 20px;
+  }
+  
+  .postText {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .firstpost {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  
+  .postBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .postBottomLeft {
+    display: flex;
+    align-items: center;
+  }
+  
+  .likes {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: transform 0.2s ease;
+  }
+  
+  
+  .likesCount {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+  }
+  likes, .heart {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: transform 0.2s ease;
+  }
+  
+  .likes:hover, .heart:hover {
+    transform: scale(1.2); 
+  }
+  
+  
+  .postBottomRight {
+    display: flex;
+    align-items: center;
+  }
+  
+  .commentCount {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+    color: #555;
+    border-bottom: 1px dashed gray;
+  }
+  
+  .commentCount:hover {
+    color: #1877f2;
+  }
+  
+  .postTopRight {
+    cursor: pointer;
+
+  }
+  

@@ -1,0 +1,80 @@
+.register {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .registerWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+  }
+  
+  .registerLeft,
+  .registerRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .registerBox {
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #1775ee;
+  }
+  
+  .logodes {
+    font-size: 24px;
+  }
+  
+  .registerInput {
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  
+  .registerBtn {
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .alreadyAccount {
+    text-align: center;
+    color: #1775ee;
+    cursor: pointer;
+  }
+  
+  .loginRedirectBtn {
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
